@@ -1,1 +1,3 @@
-# jk-portfolio-2
+#personal-portfolio 
+
+This is my personal portfolio
