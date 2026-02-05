@@ -154,3 +154,18 @@ nav>div>h1{
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#contactsection{
+    padding-left: var(--padding-horizontal);
+    padding: var(--padding-horizontal);
+    height: 60vh;
+}
+#contactsection > form{
+    padding:24px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    width:60vw;
+    margin: auto;
+}
+#contactsection > form >div{
+    margin-top: 16px;
+}
