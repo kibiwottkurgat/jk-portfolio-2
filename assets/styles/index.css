@@ -166,6 +166,110 @@ nav>div>h1{
     width:60vw;
     margin: auto;
 }
+
 #contactsection > form >div{
     margin-top: 16px;
+
 }
+#contactsection > form > h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+#contactsection > form >div >{
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#contactsection > form > .usernameemail, .useragebirth{
+    display: flex;
+}
+#contactsection > form> .usernameemail, .useragebirth> div> label{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+#contactsection > form > div >label{
+    font-weight: 500;
+    color:white;
+}
+
+#contactsection > form > .usernameemail> div >input{
+    all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    height: 30px;
+    color: gray;
+}
+#contactsection > form > .useragebirth> div >input{
+    all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    height: 30px;
+    color: gray;
+}
+#contactsection > form > .userfilemessage> div >input{
+    all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    height: 30px;
+    color: gray;
+
+#contactsection > form > div >textarea{
+    border-radius: 12px;
+    background-color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    color: gray;
+}
+#contactsection> form>div>input{
+    background-color: var(--secondary-color);
+    color:blue;
+    padding-left: 22px;
+    width: 200px;
+    height: 18px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    object-fit: cover;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 12px;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+#contactsection>form>input>button:hover{
+    background-color: #AC7884;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding-bottom: 15px;
+    font-size: larger;
+    transition: 1s;
+    justify-content: center;
+    cursor: pointer;
+}
+

@@ -90,38 +90,55 @@
     <section id="contactsection">
     <!--contact form-->
     <form action="">
+      <hr>
       <h3>REGISTRATION FORM</h3>
-      <!--username input-->
+      <hr>
+  
+      <div class="usernameemail">
       <div>
-        <label for="username">Name</label>
+      <!--username -->
+        <label for="username">Name</label></br>
         <input type="text" name="username" placeholder="enter your username">
       </div>
-
       <div>
-      <!--user email-->
-      <label form="user email">email</label>
-      <input type="email" name="user email" placeholder="enter your email">
-    </div>
+      <!--user Email-->
+      <label form="userEmail">Email</label></br>
+      <input type="email" name="user Email" placeholder="enter your Email">
+    </div> 
+  </div>
 
-    <div>
+   
+    <div class="useragebirth">
+       <div>
       <!--user age-->
-      <label for="userAge">Age</label>
-      <input type="number" placeholder="0" name="userAge">
+      <label for="userage">Age</label></br>
+      <input type="number" placeholder="Enter your age" name="userage">
     </div>
-
     <div>
     <!--user birth-->
-    <label for="D.O.B">Birthday</label>
+    <label for="D.O.B">Birthday</label></br>
     <input type="date" name="userD.O.B">
     </div>
-    <div>
-      <!--file-->
-      <label for="userfile">upload file</label>
-      <input type="file" name="userfile">
-
     </div>
+
+    <div class="userfilemessage">
+      <div>
+      <!--file-->
+      <label for="userfile">upload file</label></br>
+      <input type="file" name="userfile">
+      </div>
+      <div> 
+        <!--user message-->
+        <label for="message">message</label></br>
+        <input type="text"placeholder="Enter your message" name="user message"></textarea>
+      </div>
+    </div>
+     <input type="submit" value="SUBMIT">
+        <input type="Reset" value="CLEAR FORM">
     </form>
+  
     </section>
+    <div style="margin:10px;"></div>
   </body>
 </html>
 
