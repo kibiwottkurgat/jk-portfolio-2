@@ -246,30 +246,23 @@ nav>div>h1{
     font-size: 14px;
     color: gray;
 }
-#contactsection> form>div>input{
+#contactsection > form > div > input{
+    all: unset;
     background-color: var(--secondary-color);
-    color:blue;
+    color:#fff;
     padding-left: 22px;
     width: 200px;
-    height: 18px;
-    aspect-ratio: 1/1;
     text-align: center;
-    object-fit: cover;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-top: 12px;
     border-radius: 40px;
     transition: 1s;
-    cursor: pointer;
+ 
 }
-#contactsection>form>input>button:hover{
-    background-color: #AC7884;
-    color: var(--secondary-color);
-    cursor: pointer;
-    padding-bottom: 15px;
-    font-size: larger;
-    transition: 1s;
-    justify-content: center;
+#contactsection > form > div >  input:hover{
+    background-color:white;
+    color: var:gray;
     cursor: pointer;
 }
 
